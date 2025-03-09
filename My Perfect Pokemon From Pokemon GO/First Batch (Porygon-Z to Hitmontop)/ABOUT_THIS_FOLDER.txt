@@ -1,0 +1,177 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ABOUT THIS FOLDER:
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+At Green River College, I took a couple of Data Science classes that utilized
+the Jupyter notebooks that use python. In that class, I was to use Google Colab,
+for a final project. The final project could use any dataset that we've either
+collected on our own, or by using an online source like Kaggle. What I did was 
+use data from a gaming app called Pokémon GO. 
+
+This is one of many files that are about some of the Perfect Pokémon that I've
+found in Pokémon GO. 
+
+Pokémon GO is a mobile app game, released by Niantic in 2016. Since 2019, I’ve 
+been interested in collecting as many of these Perfect Pokémon, since Pokémon GO 
+doesn’t really have much of an end goal. I have compiled a massive Excel spreadsheet 
+and database of my Perfect Pokémon that I’ve found, over the months and years. These 
+Pokémon all have a “perfect” status, in the game. To find out if your Pokémon is a 
+perfect, the “appraise” option will have your team leader evaluate the IVs or potential
+strength of your Pokémon. If all bars are full, and the icon with the three stars turns red, 
+then you have found a Perfect Pokémon. These are colloquially referred to as "hundos" by 
+the community of Pokémon GO players.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ABOUT THE PAST DATA:
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+This data from the past details 100 "perfect" Pokémon that I have found, in order
+to conduct interesting data points and patterns about them. What I wanted to look 
+at were:
+
+- Outliers in the data
+- How tall or short each Pokémon was, in comparison to each other
+- How heavy or light each Pokémon was, in comparison to each other
+- Comparing their weights to the Pokémon's average heights and weights (From Bulbapedia and Video Game Data)
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ABOUT THE FILES:
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+My_Perfects_PAST.csv is data on the first 100 Perfect Pokémon that I've found (Porygon-Z to Hitmontop). 
+Information on each parameter and attribute:
+
+- Pokémon Species: The Species of the Pokémon found (i.e., Pikachu, Bulbasaur, Squirtle)
+- Nickname: Nicknames that are given to the Pokémon
+- Type: The Pokémon's typing (e.g., Pikachu is an Electric-Type Pokémon)
+- From Egg?: The Pokémon was hatched from an egg
+- From Raid?: The Pokémon was defeated and captured from a Raid
+- Random/Research Task?: The Pokémon was caught either in the wild, or from completing a research task
+- From Rocket Grunt?: The Pokémon was caught after defeating a member of Team GO Rocket
+- From Event?: The Pokémon was caught during an event
+- Is Shiny?: The Pokémon has a different color than usual (e.g., Pikachu is slightly darker and has dark pink cheeks, as a Shiny)
+- Height (m): The Pokémon's height in meters
+- Weight (kg): The Pokémon's weight in kilograms
+- Generation: The generation that the Pokémon is from (e.g., Pikachu is from Generation 1)
+- Date Found: The date that the Pokémon was found on
+- Location: The location that the Pokémon was caught or hatched at
+
+What_Is_Pokemon_GO.docx is an explanation on what Pokémon GO is, including references and citations about Pokémon, Niantic, Nintendo, and
+any other articles that are related to Pokémon. Citations are also included here. 
+
+My_Perfects_First100.R is the R Programming language file that deciphers the data that is from the csv 
+file. This is to demonstrate my skills with the R programming language, as well as including the .ipynb
+file that does the same thing, but with Python and inside a Jupyter Notebook.
+
+MyPerfectsPAST_DATA.ipynb is a Jupyter Source File that utilizes Python. I made this file
+back in 2023 for one of my classes at Green River College. The file and analysis was initially barebones, 
+but I've added a bit to this file as of recently, with the inclusion of scipy for projecting linear 
+regression values, as well as viewing the correlation between a Pokémon's height and weight. 
+
+First_100_PerfectPokemon.accdb is a Microsoft Access Database file that holds a database of the tables 
+and data that are similar to the Excel workbook, as well as the csv file. However, this allows for SQL 
+functions to help aggregate the data, unlike with Excel. There is no Shiny column in the database, because no Shiny Pokémon were found at that time. 
+
+First_100_PerfectPokemon.sql is an SQL file that helps query and aggregate the data from the database that I made.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Works Cited/Bibliography/References:
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+Bulbapedia. (2024, October 30). Main page. https://bulbapedia.bulbagarden.net/wiki/Main_Page 
+
+Cardaro, B. (2023, December 10). Things no one knows about Pokémon’s creator, Satoshi Tajiri. CBR. https://www.cbr.com/pokemon-creator-satoshi-tajiri-facts-into/
+
+Goldfarb, A. (2017, June 21). E3 2017: Major New Pokemon Go Update Will Change Gyms, add raid battles. IGN. https://www.ign.com/articles/2017/06/19/e3-2017-major-new-pokemon-go-update-will-change-gyms-add-raid-battles 
+
+Iwao, K. (2017, November 17). Pokémon Ultra Sun Version (Nintendo 3DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Iwao, K. (2017, November 17). Pokémon Ultra Moon Version (Nintendo 3DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Iwao, K. (2022, January 28). Pokémon Legends: Arceus (Nintendo Switch)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Jerez, R. (2024, September 11). Pokemon Go Dynamax & Max Battles explained. Dexerto. https://www.dexerto.com/pokemon/pokemon-go-dynamax-max-battles-explained-2888410/ 
+
+Kawachimaru, T. (2008, September 13). Pokémon Platinum Version (Nintendo DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Masuda, J. (2002, November 21). Pokémon Ruby Version (Game Boy Advance)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc. 
+
+Masuda, J. (2002, November 21). Pokémon Sapphire Version (Game Boy Advance)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Masuda, J. (2004, January 29). Pokémon FireRed Version (Game Boy Advance)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Masuda, J. (2004, January 29). Pokémon LeafGreen Version (Game Boy Advance)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Masuda, J. (2006, September 28). Pokémon Diamond Version (Nintendo DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Masuda, J. (2006, September 28). Pokémon Pearl Version (Nintendo DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Masuda, J. (2010, September 18). Pokémon Black Version (Nintendo DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Masuda, J. (2010, September 18). Pokémon White Version (Nintendo DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Masuda, J. (2013, October 12). Pokémon X Version (Nintendo 3DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Masuda, J. (2013, October 12). Pokémon Y Version (Nintendo 3DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Masuda, J. (2018, November 16). Pokémon Let's Go, Pikachu! (Nintendo Switch)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Masuda, J. (2018, November 16). Pokémon Let's Go, Eevee! (Nintendo Switch)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+MeteorAsh15. (2024, September 5). Pokémon go regional pokémon: Ultimate guide. Pokémon GO Hub. https://pokemongohub.net/post/wiki/regional-pokemon-list/ 
+
+Morimoto, S. (2004, September 16). Pokémon Emerald Version (Game Boy Advance)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Morimoto, S. (2009, September 12). Pokémon HeartGold Version (Nintendo DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Morimoto, S. (2009, September 12). Pokémon SoulSilver Version (Nintendo DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Nomura, T. (2016, July 6). Pokémon GO (iOS, Android)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc, Niantic.
+
+Ogasawara, H. (2012, July 14). Pokedex 3D Pro (Nintendo 3DS)[Video Game]. Nintendo, GAME FREAK, Creatures Inc.
+
+Ohmori, S. (2014, November 21). Pokémon Omega Ruby Version (Nintendo 3DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Ohmori, S. (2014, November 21). Pokémon Alpha Sapphire Version (Nintendo 3DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Ohmori, S. (2016, November 18). Pokémon Sun Version (Game Boy)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Ohmori, S. (2016, November 18). Pokémon Moon Version (Game Boy)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Ohmori, S. (2019, November 15). Pokémon Sword Version (Nintendo Switch)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Ohmori, S. (2019, November 15). Pokémon Shield Version (Nintendo Switch)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Ohmori, S. (2022, November 18). Pokémon Scarlet Version (Nintendo Switch)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Ohmori, S. (2022, November 18). Pokémon Violet Version (Nintendo Switch)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Tajiri, S. (1996, February 27). Pokémon Red Version (Game Boy)[Video Game]. Nintendo, GAME FREAK, Creatures Inc. 
+
+Tajiri, S. (1996, February 27). Pokémon Green Version (Game Boy)[Video Game]. Nintendo, GAME FREAK, Creatures Inc.
+
+Tajiri, S. (1996, October 15). Pokémon Blue Version (Game Boy)[Video Game]. Nintendo, GAME FREAK, Creatures Inc.
+
+Tajiri, S. (1998, September 12). Pokémon Yellow Version - Special Pikachu Edition (Game Boy)[Video Game]. Nintendo, GAME FREAK, Creatures Inc.
+
+Tajiri, S., Iwata, S. (1999, November 21). Pokémon Gold Version (Game Boy Color)[Video Game]. Nintendo, GAME FREAK, Creatures Inc.
+
+Tajiri, S., Iwata, S. (1999, November 21). Pokémon Silver Version (Game Boy Color)[Video Game]. Nintendo, GAME FREAK, Creatures Inc.
+
+Tajiri, S., Iwata, S. (2000, December 14). Pokémon Crystal Version (Game Boy Color)[Video Game]. Nintendo, GAME FREAK, Creatures Inc.
+
+Ueda, Y., Masuda, J. (2021, November 19). Pokémon Brilliant Diamond Version (Nintendo Switch)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Ueda, Y., Masuda, J. (2021, November 19). Pokémon Shining Pearl Version (Nintendo Switch)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Unno, T. (2012, June 23). Pokémon Black Version 2 (Nintendo DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc. 
+
+Unno, T. (2012, June 23). Pokémon White Version 2 (Nintendo DS)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Creatures Inc.
+
+Williams, P. (2017, January 17). [2025] Hundo and Shundo Pokemon GO Complete Guide. [2025] Hundo and Shundo Pokemon Go Complete Guide. https://www.locachange.com/pokemon-go/hundo-shundo-pokemon-go/ 
+
+Yamana, M. (2003, November 21). Pokémon Colosseum (Nintendo GameCube)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Genius Sonority.
+
+Yamana, M. (2005, August 4). Pokémon XD: Gale of Darkness (Nintendo GameCube)[Video Game]. Nintendo, GAME FREAK, The Pokémon Company, Genius Sonority.
+
+Zeroghan. (2020, November 15). Six Million spawns later: Conclusions and confirmations. Pokémon GO Hub. https://pokemongohub.net/post/featured/six-million-spawns-later-conclusions-confirmations/  
